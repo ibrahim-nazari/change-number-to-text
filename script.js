@@ -548,10 +548,10 @@ function checkAll(e){
  }else if(val.length>5){
  	if(number.value.substring(0,6)=="100000"){
        number.value= number.value.substring(0,6);
-       	 error.innerHTML="Hey this application only count to one hundered thousands,if you need it to count above one hundered thousands Email me at ibrahimnazarywebdesign.com";
+       	 error.innerHTML="Hey this application only count to one hundered thousands,if you need it to count above one hundered thousands Email me at ibrahimnazaryweb@gmail.com";
  	}else{
 	  number.value= number.value.substring(0,5);
-	 error.innerHTML="Hey this application only count to one hundered thousands,if you need it to count above one hundered thousands Email me at ibrahimnazarywebdesign.com";
+	 error.innerHTML="Hey this application only count to one hundered thousands,if you need it to count above one hundered thousands Email me at ibrahimnazaryweb@gmail.com";
  	}
 
 	 return false;
